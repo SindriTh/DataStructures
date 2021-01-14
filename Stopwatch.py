@@ -13,4 +13,3 @@ class Stopwatch:
 
     def StopTimer(self):
         self.stop = time.perf_counter_ns()
-
