@@ -74,6 +74,7 @@ def increseatrandom(lis):
     return lis
 
 
+# C(1)
 def switchtwo(lis):
     ind1 = random.randint(0,len(lis)-1)
     ind2 = random.randint(0,len(lis)-1)
