@@ -31,4 +31,5 @@ def unique_linear_search_helper(lis,val):
         return True
     return unique_linear_search_helper(lis[1:],val)
 
-print(unique([0,1,2,3,3,4,5,5]))
+
+print(unique(['a','b','c','d','a','c','d','a']))
