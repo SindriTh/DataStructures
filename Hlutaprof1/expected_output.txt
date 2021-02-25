@@ -1,0 +1,75 @@
+*********ARRAY_TESTS*********:
+SOME APPENDS, PREPENDS AND INSERTS
+THE LIST: 1, 2, 3, 4, 5, 6, 7, 8, 9
+
+The list {} has 0 instances of 4
+The list {4} has 1 instances of 4
+The list {4, 4} has 2 instances of 4
+The list {4, 4, 5} has 2 instances of 4
+The list {4, 4, 5, 4} has 3 instances of 4
+The list {4, 4, 5, 4, 5} has 3 instances of 4      
+The list {4, 4, 5, 4, 5, 5} has 3 instances of 4   
+The list {4, 4, 5, 4, 5, 5, 4} has 4 instances of 4
+
+SOME INSERTS
+THE LIST: 8, 7, 7, 8, 5, 8, 7, 8, 9
+
+The list {8, 7, 7, 8, 5, 8, 7, 8, 9} has 0 instances of 4
+The list {8, 7, 7, 8, 5, 8, 7, 8, 9} has 1 instances of 5
+The list {8, 7, 7, 8, 5, 8, 7, 8, 9} has 0 instances of 6
+The list {8, 7, 7, 8, 5, 8, 7, 8, 9} has 3 instances of 7
+The list {8, 7, 7, 8, 5, 8, 7, 8, 9} has 4 instances of 8
+The list {8, 7, 7, 8, 5, 8, 7, 8, 9} has 1 instances of 9
+
+SOME INSERTS
+THE LIST: 3, 7, 1, 4, 2, 5
+
+
+*********RECURSION_TESTS*********:
+is_divisible(9, 3): True
+is_divisible(8, 2): True
+is_divisible(8, 4): True
+is_divisible(8, 5): False
+is_divisible(8, 3): False
+is_divisible(15, 7): False
+is_divisible(14, 7): True
+is_divisible(4, 0): False
+is_divisible(0, 4): True
+is_divisible(117, 9): True
+
+The list [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] has 0 matches
+The list [0, 1, 2, 2, 4, 5, 6, 6, 8, 9] has 2 matches
+The list [0, 1, 2, 3, 5, 5, 5, 7, 8, 9] has 2 matches
+The list [0, 1, 2, 3, 4, 5, 6, 7, 9, 9] has 1 matches
+The list [0, 1, 3, 3, 3, 5, 6, 7, 7, 9] has 3 matches
+The list [1, 1, 2, 2, 3, 3, 4, 4, 5, 5] has 5 matches
+The list [0, 0, 0, 3, 4, 5, 5, 7, 8, 8] has 4 matches
+The list [1, 1, 1, 3, 3, 5, 5, 5, 9, 9] has 6 matches
+The list [] has 0 matches
+The list [1, 1, 1, 1] has 3 matches
+
+
+*********LIBRARY_TESTS*********:
+testing book1:
+(1: Dune)
+testing book2:
+(2: At the mountains of madness)
+library with 1 book:
+(3: Don Kikoti)
+
+library with 2 books:
+(3: Don Kikoti)
+(4: Sjálfstætt fólk)
+
+printing book with id 4
+(4: Sjálfstætt fólk)
+changing a different book
+(3: Don Quixote)
+(4: Sjálfstætt fólk)
+
+overwrite Don Quixote
+(3: The trial)
+(4: Sjálfstætt fólk)
+
+removed independant people
+(3: The trial)
